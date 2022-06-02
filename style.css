@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(195, 194, 196);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    background-color: rgba(61, 190, 125, 0.726);
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 3px 3px 15px 15px rgba(119, 133, 134, 0.726);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario label {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#formulario input {
+    color: black;
+    font-size: 22px;
+    padding: 4px 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+}
+
+#formulario button {
+    background: rgb(50, 21, 58);
+    color: aliceblue;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.paragrafo-resultado { /* paragrafo sucesso */
+    background-color: rgb(0, 255, 42);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bad {
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
